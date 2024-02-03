@@ -136,25 +136,11 @@
         "address": 25
     },
     {
-        "opcodeName": "Jmp",
-        "opcode": 48,
-        "operands": [
-            {
-                "type": "label",
-                "value": -1,
-                "label": "LOOP"
-            }
-        ],
-        "line": 12,
-        "label": "",
-        "address": 28
-    },
-    {
         "opcodeName": "HLT",
         "opcode": 1,
         "operands": [],
-        "line": 14,
+        "line": 13,
         "label": "",
-        "address": 31
+        "address": 28
     }
 ]
