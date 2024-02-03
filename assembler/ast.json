@@ -1,0 +1,160 @@
+[
+    {
+        "opcodeName": "MoveLit",
+        "opcode": 16,
+        "operands": [
+            {
+                "type": "register",
+                "value": 1
+            },
+            {
+                "type": "literal",
+                "value": 0
+            }
+        ],
+        "line": 1,
+        "label": "INIT",
+        "address": 0
+    },
+    {
+        "opcodeName": "MoveLit",
+        "opcode": 16,
+        "operands": [
+            {
+                "type": "register",
+                "value": 2
+            },
+            {
+                "type": "literal",
+                "value": 1
+            }
+        ],
+        "line": 2,
+        "label": "",
+        "address": 4
+    },
+    {
+        "opcodeName": "MoveLit",
+        "opcode": 16,
+        "operands": [
+            {
+                "type": "register",
+                "value": 3
+            },
+            {
+                "type": "literal",
+                "value": 0
+            }
+        ],
+        "line": 3,
+        "label": "",
+        "address": 8
+    },
+    {
+        "opcodeName": "MoveLit",
+        "opcode": 16,
+        "operands": [
+            {
+                "type": "register",
+                "value": 8
+            },
+            {
+                "type": "literal",
+                "value": 0
+            }
+        ],
+        "line": 4,
+        "label": "",
+        "address": 12
+    },
+    {
+        "opcodeName": "ADD",
+        "opcode": 20,
+        "operands": [
+            {
+                "type": "register",
+                "value": 1
+            },
+            {
+                "type": "register",
+                "value": 2
+            }
+        ],
+        "line": 7,
+        "label": "LOOP",
+        "address": 16
+    },
+    {
+        "opcodeName": "MoveReg",
+        "opcode": 17,
+        "operands": [
+            {
+                "type": "register",
+                "value": 8
+            },
+            {
+                "type": "register",
+                "value": 3
+            }
+        ],
+        "line": 8,
+        "label": "",
+        "address": 19
+    },
+    {
+        "opcodeName": "MoveReg",
+        "opcode": 17,
+        "operands": [
+            {
+                "type": "register",
+                "value": 2
+            },
+            {
+                "type": "register",
+                "value": 1
+            }
+        ],
+        "line": 9,
+        "label": "",
+        "address": 22
+    },
+    {
+        "opcodeName": "MoveReg",
+        "opcode": 17,
+        "operands": [
+            {
+                "type": "register",
+                "value": 3
+            },
+            {
+                "type": "register",
+                "value": 2
+            }
+        ],
+        "line": 10,
+        "label": "",
+        "address": 25
+    },
+    {
+        "opcodeName": "Jmp",
+        "opcode": 48,
+        "operands": [
+            {
+                "type": "label",
+                "value": -1,
+                "label": "LOOP"
+            }
+        ],
+        "line": 12,
+        "label": "",
+        "address": 28
+    },
+    {
+        "opcodeName": "HLT",
+        "opcode": 1,
+        "operands": [],
+        "line": 14,
+        "label": "",
+        "address": 31
+    }
+]
